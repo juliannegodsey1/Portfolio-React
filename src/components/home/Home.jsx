@@ -7,9 +7,7 @@ const Home = () => {
         <h1 className="display-5 text-light border border-1 border-light py-2 px-4 d-inline-block">
           JULIANNE GODSEY
         </h1>
-        <h2 className="text-secondary fw-light fs-3 mb-4">
-          FULL-STACK DEVELOPER
-        </h2>
+        <h2 className="fw-light fs-3 mb-4">FULL-STACK DEVELOPER</h2>
         <div className="lang-logos d-flex justify-content-center gap-4">
           <img
             src="react-logo.svg"

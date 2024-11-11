@@ -1,19 +1,21 @@
+import "./header.css";
+
 const Header = () => {
   return (
     <header className="header py-3">
       <div className="container d-flex justify-content-evenly align-items-center">
         <a href="#home" className="logo fs-5 fw-semibold" id="name-logo">
-          <span>Julianne</span> Godsey
+          Julianne Godsey
         </a>
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid d-flex">
-            <a className="nav-link navbar-brand ms-4" href="#about-me">
+            <a className="nav-link navbar-brand ms-5" href="#about-me">
               About Me
             </a>
-            <a className="nav-link navbar-brand ms-4" href="#projects">
+            <a className="nav-link navbar-brand ms-5" href="#projects">
               Projects
             </a>
-            <a className="nav-link navbar-brand ms-4" href="#resume">
+            <a className="nav-link navbar-brand ms-5" href="#resume">
               Resume
             </a>
           </div>
