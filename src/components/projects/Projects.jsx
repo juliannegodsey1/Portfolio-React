@@ -50,7 +50,7 @@ const Projects = () => {
                   </h3>
                   <ul className="list-unstyled text-light">
                     {project.description.map((desc, idx) => (
-                      <li key={idx} className="mb-2">
+                      <li key={idx} className="mt-3">
                         {desc}
                       </li>
                     ))}
