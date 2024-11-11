@@ -1,0 +1,15 @@
+.resume-btn {
+  background-color: #7f5af0;
+  color: aliceblue;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-weight: 650;
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+.resume-btn:hover {
+  background-color: #212529f0;
+  color: aliceblue;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -38,19 +38,17 @@ const Projects = () => {
         <div className="row">
           {projectData.map((project, index) => (
             <div key={index} className="col-md-4 mb-4">
-              <div className="card h-100 project-card">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card h-100 project-card text-decoration-none"
+              >
                 <div className="card-body">
-                  <h3 className="card-title">
-                    {project.title}{" "}
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="bx bx-link-external"></i>
-                    </a>
+                  <h3 className="card-title text-light">
+                    {project.title} <i className="bx bx-link-external"></i>
                   </h3>
-                  <ul className="list-unstyled">
+                  <ul className="list-unstyled text-light">
                     {project.description.map((desc, idx) => (
                       <li key={idx} className="mb-2">
                         {desc}
@@ -58,7 +56,7 @@ const Projects = () => {
                     ))}
                   </ul>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>
