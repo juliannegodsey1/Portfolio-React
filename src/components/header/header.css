@@ -1,14 +1,24 @@
 .header {
-  background-color: rgba(33, 37, 41, 0.945);
+  background-color: rgba(33, 37, 41, 0.98);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
   color: #7f5af0;
   text-decoration: none;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .logo:hover {
   color: aliceblue;
+  text-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.nav-link {
+  text-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5);
 }
 
 .nav-link:hover {
@@ -19,9 +29,11 @@
   background-color: #7f5af0;
   color: aliceblue;
   border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contact-btn:hover {
   background-color: aliceblue;
   color: #7f5af0;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
 }

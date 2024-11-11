@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <section id="home" className="home bg-dark py-5">
       <div className="home-content text-center">
-        <h1 className="display-5 text-light border border-1 border-light py-2 px-4 d-inline-block">
+        <h1 className="display-4 text-light border border-1 border-light py-2 px-4 d-inline-block">
           JULIANNE GODSEY
         </h1>
-        <h2 className="fw-light fs-3 mb-4">FULL-STACK DEVELOPER</h2>
+        <h2 className="fw-light fs-2 mb-4">FULL-STACK DEVELOPER</h2>
         <div className="lang-logos d-flex justify-content-center gap-4">
           <img
             src="react-logo.svg"
