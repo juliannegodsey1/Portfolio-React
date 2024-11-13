@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 text-center">
-            <ul className="list-unstyled d-flex justify-content-center mb-4">
+            <ul className="footer-links list-unstyled d-flex justify-content-center mb-4">
               <li className="mx-3">
                 <a href="#home" id="home-link" className="text-light">
                   Home

@@ -6,10 +6,6 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.navbar {
-  display: none;
-}
-
 .logo {
   color: #7f5af0;
   text-decoration: none;
@@ -42,12 +38,12 @@
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .container {
     max-width: 100%;
     overflow-x: hidden;
   }
   .navbar {
-    width: 100%;
+    display: none;
   }
 }

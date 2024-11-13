@@ -1,8 +1,9 @@
 .square-logo {
-  width: 55px;
-  height: 55px;
   object-fit: contain;
   transition: transform 0.3s ease;
+  max-width: 100%;
+  width: 5vw;
+  height: auto;
 }
 
 .square-logo:hover {
